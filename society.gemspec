@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
 	s.version     = Society::VERSION
 	s.authors     = [ 'Alexander Senko' ]
 	s.email       = [ 'Alexander.Senko@gmail.com' ]
-	s.homepage    = 'TODO'
-	s.summary     = 'TODO: Summary of Society.'
-	s.description = 'TODO: Description of Society.'
+	s.homepage    = "https://github.com/softpro/#{s.name}"
+	s.summary     = 'Rails engine for social networking.'
+#	s.description = 'TODO: Description of Society.'
 	s.license     = 'MIT'
 
 	s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
